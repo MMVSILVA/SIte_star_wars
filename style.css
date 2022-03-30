@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/** {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}*/
+
+#menu{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu ul { /*todo o menu*/
+    max-width: 1300px;
+    list-style: upper-alpha;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(233, 24, 24);
+}
+
+#menu ul li:last-child a {
+    float:right;
+    background-color: rgb(24, 139, 233);
+    transition: background .4s;
+}
+
+
+body,html {
+    height: 100%;
+    margin: 0;
+
+}
+
+
+.background{
+    background-image: url(./Imagens/fundo_starwar_colorido.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+.Paragrafo1{
+    font-size:  30px;
+    color: white;    
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(0, 0, 0);
+    }
+.Paragrafo2{
+    font-size: 40px;
+    color: black;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(4, 225, 250);
+    background-position: center; 
+    }
+
+h1 {
+    font-size: 48px;
+    color: white;
+    font-style: italic;
+    } 
+
+h3 {
+    font-size: 42px;
+    color: rgb(223, 0, 0);
+    background-color:black ;  
+    padding: 3px 3px 3px 3px;
+    border: 0;
+    height: 50px;
+	width: 29%;
+	margin: 1% 1%;
+	text-align: center;
+	border-radius: 20px;
+    border: #FFF solid;
+    }
+    h3:hover{
+        background-image: url(./Imagens/220px-Lightsaber_blue.svg.png);
+        padding: 100px 20px 20px 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    #rodape {
+        background-color: red;
+        color: #FFF;
+        text-align:center ;
+        font-size: 15px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        
+    }
+
+    p.Mudar:hover{
+        background-color: rgb(24, 139, 233);
+        transition: background .4s;
+      
+
+    }
+
+#Título{
+    color: blanchedalmond;
+    margin: 1% 1%;
+    font-size: 40px;
+    width: 400px;
+    height: 150px;
+    background-image: url(./Imagens/OIP.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    }
+
+img.imagem{
+    border-radius: 10px;
+    border: 3px white solid;
+    width: 1300px;
+    height: 450px;
+    
+
+}
+
+#tabela1 th { /*títulos*/
+    color: rgb(255, 0, 0);
+    background-color: rgb(4, 1, 1);/*fundo dos título*/
+    border: 2px white solid;/*bordas dos título*/
+    border-radius: 10px ;
+    padding: 5px 5px 5px 5px;
+    
+}
+#tabela1 th:hover { /*títulos*/
+    color: #000;
+    background-color: rgb(13, 0, 255);/*fundo dos título*/
+    border: 2px white solid;/*bordas dos título*/
+    border-radius: 10px ;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+#tabela1 tr { /*conteúdo da tabela*/
+    color: rgb(255, 255, 255);/*cor do conteúdo da tabela*/
+}
+#tabela1 tr:hover { /*conteúdo da tabela*/
+    /*cor do conteúdo da tabela*/
+    background-color: rgb(247, 3, 3); 
+    text-align: center;
+    transition: background .20s;
+}
+
+#tabela1 td { /*fundo do conteúdo da tabela*/
+    border: 2px rgb(255, 255, 255) solid;
+    background-color: rgba(0, 0, 0, 0.535);
+}
+
+a.link {
+    background-color: #000;
+    font: 12px Arial, Helvetica, sans-serif;
+    color:rgb(246, 246, 250);
+    padding:2px 6px;
+    text-decoration:none
+    }
+    
+.link:hover {
+    color:rgb(15, 5, 208);
+    background-color:rgb(255, 249, 249);
+}
+
+
+.tabela2 th{
+    color: rgb(2, 0, 0);
+    background-color: rgb(0, 17, 250);
+    border: 2px rgb(0, 227, 252) solid;
+    width: 500px;
+    height: 2px;
+}
+.tabela2 tr {
+    color: rgb(255, 255, 255); 
+    text-align: center;
+}
+
+.tabela2 tr:hover {
+    background-color: rgb(247, 3, 3); 
+    text-align: center;
+    transition: background .20s;
+
+}
+.tabela2 td {
+    border: 2px rgb(255, 255, 255) solid;
+    background-color: rgba(0, 0, 0, 0.535);   
+    
+}
+
+
+img{
+    display: block;
+    margin: 0px auto;
+   }
+
